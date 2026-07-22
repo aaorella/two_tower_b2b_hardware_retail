@@ -1,0 +1,1 @@
+Los Parquet derivados (catálogo de productos, dataset de retrieval, mapeo de RUC anonimizados, transacciones unificadas) se **regeneran** ejecutando los notebooks `01`–`03` sobre los datos de `data_raw/`. No se versionan por tamaño (~600 MB).

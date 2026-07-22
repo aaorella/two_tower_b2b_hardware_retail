@@ -1,0 +1,8 @@
+pop_recall10:0.039
+pop_recall50:0.132
+pop_recall100:0.2125
+pop_mrr:0.021885968553792594
+tt_recall10:0.074
+tt_recall50:0.215
+tt_recall100:0.3305
+tt_mrr:0.03535750309380473

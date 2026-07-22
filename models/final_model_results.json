@@ -1,0 +1,24 @@
+{
+  "pares_entrenamiento": 32501962,
+  "mejor_epoca": 1,
+  "epocas_corridas": 3,
+  "hiperparametros": {
+    "batch_size": 1024,
+    "remove_accidental_hits": true,
+    "dropout": 0.0,
+    "normalize": true,
+    "temperature": 0.05,
+    "max_epochs": 8,
+    "patience": 2,
+    "seed": 42,
+    "seleccion_frac": 0.25,
+    "metrica_seleccion": "Recall@100 coseno",
+    "cos_recall100_seleccion": 0.325,
+    "mejor_epoca_seleccion": 3
+  },
+  "recall10": 0.074,
+  "recall50": 0.215,
+  "recall100": 0.3305,
+  "mrr": 0.03535750309380473,
+  "verificacion_dot_recall100": 0.3305
+}

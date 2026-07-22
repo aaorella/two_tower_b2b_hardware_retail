@@ -1,0 +1,7 @@
+Métrica,Con LogQ,Sin LogQ
+Recall@10,7.10 %,1.60 %
+Recall@50,22.80 %,6.10 %
+Recall@100,33.10 %,10.20 %
+MRR,0.0329,0.0082
+Cobertura de catálogo,20.09 %,62.11 %
+Coeficiente de Gini,0.9650,0.6982

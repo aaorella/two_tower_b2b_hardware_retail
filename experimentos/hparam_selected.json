@@ -1,0 +1,14 @@
+{
+  "batch_size": 1024,
+  "remove_accidental_hits": true,
+  "dropout": 0.0,
+  "normalize": true,
+  "temperature": 0.05,
+  "max_epochs": 8,
+  "patience": 2,
+  "seed": 42,
+  "seleccion_frac": 0.25,
+  "metrica_seleccion": "Recall@100 coseno",
+  "cos_recall100_seleccion": 0.325,
+  "mejor_epoca_seleccion": 3
+}

@@ -1,0 +1,17 @@
+dimension,chequeo,valor,porcentaje
+Duplicados,Filas exactamente duplicadas (transacciones),0,0.0000%
+Duplicados,"Duplicados por (RUC,FECHA,COD_PROD)",1070,0.0182%
+Integridad,SKU en transacciones ausentes del catalogo (unicos),1012,
+Integridad,Filas con SKU huerfano,28943,0.4925%
+Consistencia,CANTIDAD <= 0,11,0.0002%
+Consistencia,VENTA <= 0,16483,0.2805%
+Consistencia,VENTA < COSTO (margen negativo),73943,1.2582%
+Consistencia,GANANCIA != VENTA-COSTO,0,0.0000%
+Geografia,Coordenadas fuera de rango Ecuador,0,0.0000%
+Atipicos,CANTIDAD max (uds),30000,p99.9=650
+Atipicos,VENTA max,73031.46,p99.9=1794.91
+Catalogo,id_producto duplicados,1,
+Catalogo,ean13 duplicados (validos),20,
+Catalogo,precio <= 0 (faltante como cero),2159,10.4380%
+Catalogo,peso_unitario <= 0 (faltante como cero),10480,50.6672%
+Catalogo,categoria nula,20684,100.0000%

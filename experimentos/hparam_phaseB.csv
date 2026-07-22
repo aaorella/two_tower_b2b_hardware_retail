@@ -1,0 +1,5 @@
+batch_size,remove_accidental_hits,dropout,normalize,temperature,mejor_epoca,epocas_corridas,cos_recall10,cos_recall50,cos_recall100,cos_mrr,dot_recall100,minutos,rss_pico_GB
+1024,True,0.0,True,,2,4,0.011,0.06,0.1225,0.0085607042066231,0.1225,19.7,6.64
+1024,True,0.0,True,0.2,2,4,0.0565,0.198,0.29,0.0281548550244841,0.29,25.6,6.64
+1024,True,0.0,True,0.1,7,8,0.075,0.2065,0.321,0.0359852091871308,0.321,42.7,6.64
+1024,True,0.0,True,0.05,3,5,0.069,0.2115,0.325,0.034452950704314,0.325,23.1,6.64
