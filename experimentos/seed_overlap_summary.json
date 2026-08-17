@@ -1,0 +1,36 @@
+{
+  "semillas observadas en entrenamiento": {
+    "semillas": 40,
+    "pares": 780,
+    "solapamiento_medio_pct": 79.1,
+    "ic95_pct": [
+      75.9,
+      82.1
+    ],
+    "productos_distintos_union": 25,
+    "replicas_bootstrap": 1000
+  },
+  "catálogo completo": {
+    "semillas": 40,
+    "pares": 780,
+    "solapamiento_medio_pct": 86.0,
+    "ic95_pct": [
+      82.7,
+      89.1
+    ],
+    "productos_distintos_union": 23,
+    "replicas_bootstrap": 1000
+  },
+  "parametros": {
+    "K": 10,
+    "n_semillas": 40,
+    "semilla_aleatoria": 42,
+    "contexto": {
+      "RUC": "CLIENTE_11714",
+      "CIUDAD": "uio",
+      "RUTA": "3 SUR 2",
+      "LATITUD": -0.3285,
+      "LONGITUD": -78.5527
+    }
+  }
+}
